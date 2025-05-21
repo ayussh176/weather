@@ -1,0 +1,86 @@
+/* App.css */
+.app-container {
+  text-align: center;
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+}
+
+/* Light Theme */
+.light {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Dark Theme */
+.dark {
+  background-color: #222;
+  color: #fff;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  margin-top: 10px;
+  padding: 8px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background-color: #0056b3;
+}
+
+/* Search Box */
+.search-box {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-box button:hover {
+  background: #0056b3;
+}
+
+/* Weather Info Display */
+.weather-info {
+  margin-top: 20px;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+/* Weather Icon */
+.weather-icon {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
